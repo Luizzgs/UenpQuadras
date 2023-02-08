@@ -17,8 +17,9 @@ public class Usuario{
     private String login;
     private String senha;
     private Boolean admin;
+    private Boolean bloqueio;
 
-    public Usuario(String nome, Integer matricula, Integer telefone, String email, Integer id, String login, String senha, Boolean admin) {
+    public Usuario(String nome, Integer matricula, Integer telefone, String email, Integer id, String login, String senha, Boolean admin, Boolean bloqueio) {
         this.nome = nome;
         this.matricula = matricula;
         this.telefone = telefone;
@@ -27,6 +28,8 @@ public class Usuario{
         this.login = login;
         this.senha = senha;
         this.admin = admin;
+        this.bloqueio = bloqueio;
+    
     }
 
     

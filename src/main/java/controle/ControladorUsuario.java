@@ -19,8 +19,7 @@ public class ControladorUsuario {
     private DaoUser daoUser;   
     private List<Usuario> lista;
     private Boolean mostraPopupAlteracao;
-    private Boolean verificarUser;
-
+    
 
     public void iniciar() {
      

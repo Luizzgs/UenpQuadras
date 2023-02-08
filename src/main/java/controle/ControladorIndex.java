@@ -4,10 +4,32 @@
  */
 package controle;
 
+import dao.DaoUser;
+import modelos.Usuario;
+
 /**
  *
  * @author temporario
  */
 public class ControladorIndex {
+    private Usuario usuario;
+    private DaoUser dao;
+        
+    public void iniciar() {
+            
+    }
     
+    public void autenticar() {
+    
+    }
+    
+    public Usuario getUsuario() {
+        return usuario;
+    }
+
+    public void setUsuario(Usuario usuario) {
+        this.usuario = usuario;
+    }
+    
+
 }

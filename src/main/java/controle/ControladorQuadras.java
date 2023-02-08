@@ -4,10 +4,44 @@
  */
 package controle;
 
+import dao.Dao;
+import java.util.List;
+import modelos.Quadras;
+
 /**
  *
  * @author temporario
  */
 public class ControladorQuadras {
+    private Quadras quadra;
+    private Dao<Quadras> daoQuadra;
+    private List<Quadras> lista;
+    private Boolean mostraPopupAlteracao;
+
+    public void iniciar() {
+        
+    }
     
+    public void alterar(Quadras selecionado) {
+        
+    }
+        
+    public void excluir(Quadras excluido) {
+        
+    }
+    
+    public void salvar() {
+         
+    }
+    
+    public void salvarAlteracao(){
+        
+    }  
+        
+    public void fecharPopupAlteracao(){
+        mostraPopupAlteracao = false; 
+    }
+    
+    //Getters and Setters
+
 }
